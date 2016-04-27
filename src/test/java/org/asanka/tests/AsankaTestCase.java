@@ -5,9 +5,9 @@ import org.testng.annotations.*;
 /**
  * Created by asankav on 3/23/16.
  */
-public class AsankaTest1 {
+public class AsankaTestCase {
 
-    @Test
+    @Test(groups = "wso2.as",description = "ddd")
     public void autoTest1(){
         assert (false);
     }

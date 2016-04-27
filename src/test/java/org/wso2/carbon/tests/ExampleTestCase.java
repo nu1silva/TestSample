@@ -19,7 +19,7 @@ package org.wso2.carbon.tests;
 
 import org.testng.annotations.*;
 
-public class Example1 {
+public class ExampleTestCase {
 
     @BeforeClass
     public void init() {
