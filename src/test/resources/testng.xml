@@ -3,19 +3,19 @@
 
 <suite name="Asanka1" verbose="1">
     <test name="Firefox tests">
-        <parameter name="browser" value="*firefox" />
+        <!--<parameter name="browser" value="*firefox" />-->
         <classes>
             <!--<class name="org.wso2.carbon.tests.ExampleTestCaseestCase" />-->
             <class name="org.wso2.carbon.tests.ExampleTestCase"/>
             <class name="org.asanka.tests.AsankaTestCase"/>
         </classes>
     </test>
-    <test name="Chrome tests">
-        <parameter name="browser" value="*chrome" />
-        <classes>
-            <!--<class name="org.wso2.carbon.tests.ExampleTestCaseestCase" />-->
-            <class name="org.wso2.carbon.tests.ExampleTestCase"/>
-            <class name="org.asanka.tests.AsankaTestCase"/>
-        </classes>
-    </test>
+    <!--<test name="Chrome tests">-->
+        <!--<parameter name="browser" value="*chrome" />-->
+        <!--<classes>-->
+            <!--&lt;!&ndash;<class name="org.wso2.carbon.tests.ExampleTestCaseestCase" />&ndash;&gt;-->
+            <!--<class name="org.wso2.carbon.tests.ExampleTestCase"/>-->
+            <!--<class name="org.asanka.tests.AsankaTestCase"/>-->
+        <!--</classes>-->
+    <!--</test>-->
 </suite>
